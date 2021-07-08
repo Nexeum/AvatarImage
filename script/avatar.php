@@ -2,7 +2,7 @@
 
 function createAvatarImage($string)
 {
-    $imageFilePath = "../assets/avatar/" . $string . ".png";
+    $imageFilePath = "avatar/" . $string . ".png";
 
     if (!file_exists($imageFilePath))
     {
@@ -22,10 +22,10 @@ function createAvatarImage($string)
 
         imagecolorallocate($avatar, $r, $g, $b);
         $textcolor = imagecolorallocate($avatar, 255, 255, 255);
-        $font = 'C:\xampp\htdocs\botsym\assets\fonts\bold.ttf';
+        $font = 'fonts/bold.ttf';
         $font = mb_convert_encoding($font, 'big5', 'utf-8');
 
-        include "../helper/sizeavatar.php";
+        include "sizeavatar.php";
 
         imagettftext($avatar, 90, 0, $x, $y, $textcolor, $font, $string);
 
@@ -38,7 +38,7 @@ function createAvatarImage($string)
     } 
     else 
     {
-        $imageFilePath = "../assets/avatar/" . $string . ".png";
+        $imageFilePath = "avatar/" . $string . ".png";
         return $imageFilePath;
     }
 }
