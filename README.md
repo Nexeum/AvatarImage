@@ -2,6 +2,10 @@
 
 Demo : coming soon
 
+## Important
+
+The script is intended to create an image and then upload its path to a database, but you can still use it according to your needs.
+
 ## What does it do?
 
 This class converts the first character of a word into an image. It has support for several letters. It is still under development. If you want to provide a personalized experience to your users, you can implement this code. In case you use it and find a bug don't forget to inform me.  
