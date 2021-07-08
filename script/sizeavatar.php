@@ -1,23 +1,39 @@
 <?php
 $y = 138;
-if ($string == 'M') {
+if ($string == 'M') 
+{
     $x = 40;
     $y = 140;
-} elseif ($string == 'I') {
+} 
+elseif ($string == 'I') 
+{
     $x = 75;
-} elseif ($string == 'L') {
+} 
+elseif ($string == 'L') 
+{
     $x = 63;
-} elseif ($string == 'S' || $string == 'P' || $string == 'F') {
+} 
+elseif ($string == 'S' || $string == 'P' || $string == 'F') 
+{
     $x = 60;
-} elseif ($string == 'K') {
+} 
+elseif ($string == 'K') 
+{
     $x = 56.5;
-} elseif ($string == 'B' || $string == 'E' || $string == 'J') {
+} 
+elseif ($string == 'B' || $string == 'E' || $string == 'J')
+{
     $x = 55;
-} elseif ($string == 'N') {
+} 
+elseif ($string == 'N') {
     $x = 48;
-} elseif ($string == 'G' || $string == 'O' || $string == 'Q') {
+}
+elseif ($string == 'G' || $string == 'O' || $string == 'Q')
+{
     $x = 45;
-} else {
+}
+else
+{
     $x = 50;
 }
 ?>
